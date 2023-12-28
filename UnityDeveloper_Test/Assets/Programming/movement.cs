@@ -112,7 +112,6 @@ public class Movement : MonoBehaviour
             anim.SetBool ("Idle", false);
             anim.SetBool ("Run", true);
         }
-        Debug.Log (rb.velocity.y);
     }
 
     void OnCollisionEnter()

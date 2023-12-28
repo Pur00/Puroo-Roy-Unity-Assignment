@@ -31,7 +31,6 @@ public class statistics : MonoBehaviour
             }
 
             // Display game over when the player goes out of bounds
-            
             if (playerPosition.position.x < minX || playerPosition.position.x > maxX
             || playerPosition.position.y < minY || playerPosition.position.y > maxY
             ||playerPosition.position.z < minZ || playerPosition.position.z > maxZ)
